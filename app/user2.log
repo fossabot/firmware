@@ -1,0 +1,190 @@
+Automated generation of user<1/2> binary file
+
+ERROR: FLAVOR is empty. Setting it to debug
+
+	--- CONFIGURATION ---
+	> Boot mode: new
+	> Binary: user2.bin
+	> SPI speed: 40
+	> SPI mode: QIO
+	> FLAVOR: debug
+
+
+*****************
+Starting build...
+*****************
+
+make -C App/ clean;  make -C App/ButtonReq_Mng clean;  make -C App/Fota_Mng clean;  make -C App/NetworkReq_Mng clean;  make -C App/AccessPoint_Mng clean;  make -C Services clean;  make -C Services/Mqtt_Mng clean;  make -C Services/Nvm_Mng clean;  make -C Services/Wifi_Mng clean;  make -C Services/Misc clean;  make -C Driver/ clean;  make -C Driver/Gpio_Mng clean;
+make[1]: Entering directory '/home/code/app/App'
+make -C AccessPoint_Mng clean;  make -C ButtonReq_Mng clean;  make -C NetworkReq_Mng clean;  make -C Fota_Mng clean;
+make[2]: Entering directory '/home/code/app/App/AccessPoint_Mng'
+rm -f -r .output/eagle/
+make[2]: Leaving directory '/home/code/app/App/AccessPoint_Mng'
+make[2]: Entering directory '/home/code/app/App/ButtonReq_Mng'
+rm -f -r .output/eagle/
+make[2]: Leaving directory '/home/code/app/App/ButtonReq_Mng'
+make[2]: Entering directory '/home/code/app/App/NetworkReq_Mng'
+rm -f -r .output/eagle/
+make[2]: Leaving directory '/home/code/app/App/NetworkReq_Mng'
+make[2]: Entering directory '/home/code/app/App/Fota_Mng'
+rm -f -r .output/eagle/
+make[2]: Leaving directory '/home/code/app/App/Fota_Mng'
+rm -f -r .output/eagle/
+make[1]: Leaving directory '/home/code/app/App'
+make[1]: Entering directory '/home/code/app/App/ButtonReq_Mng'
+rm -f -r .output/eagle/
+make[1]: Leaving directory '/home/code/app/App/ButtonReq_Mng'
+make[1]: Entering directory '/home/code/app/App/Fota_Mng'
+rm -f -r .output/eagle/
+make[1]: Leaving directory '/home/code/app/App/Fota_Mng'
+make[1]: Entering directory '/home/code/app/App/NetworkReq_Mng'
+rm -f -r .output/eagle/
+make[1]: Leaving directory '/home/code/app/App/NetworkReq_Mng'
+make[1]: Entering directory '/home/code/app/App/AccessPoint_Mng'
+rm -f -r .output/eagle/
+make[1]: Leaving directory '/home/code/app/App/AccessPoint_Mng'
+make[1]: Entering directory '/home/code/app/Services'
+make -C Nvm_Mng clean;  make -C Mqtt_Mng clean;  make -C Misc clean;  make -C Wifi_Mng clean;
+make[2]: Entering directory '/home/code/app/Services/Nvm_Mng'
+rm -f -r .output/eagle/
+make[2]: Leaving directory '/home/code/app/Services/Nvm_Mng'
+make[2]: Entering directory '/home/code/app/Services/Mqtt_Mng'
+rm -f -r .output/eagle/
+make[2]: Leaving directory '/home/code/app/Services/Mqtt_Mng'
+make[2]: Entering directory '/home/code/app/Services/Misc'
+rm -f -r .output/eagle/
+make[2]: Leaving directory '/home/code/app/Services/Misc'
+make[2]: Entering directory '/home/code/app/Services/Wifi_Mng'
+rm -f -r .output/eagle/
+make[2]: Leaving directory '/home/code/app/Services/Wifi_Mng'
+rm -f -r .output/eagle/
+make[1]: Leaving directory '/home/code/app/Services'
+make[1]: Entering directory '/home/code/app/Services/Mqtt_Mng'
+rm -f -r .output/eagle/
+make[1]: Leaving directory '/home/code/app/Services/Mqtt_Mng'
+make[1]: Entering directory '/home/code/app/Services/Nvm_Mng'
+rm -f -r .output/eagle/
+make[1]: Leaving directory '/home/code/app/Services/Nvm_Mng'
+make[1]: Entering directory '/home/code/app/Services/Wifi_Mng'
+rm -f -r .output/eagle/
+make[1]: Leaving directory '/home/code/app/Services/Wifi_Mng'
+make[1]: Entering directory '/home/code/app/Services/Misc'
+rm -f -r .output/eagle/
+make[1]: Leaving directory '/home/code/app/Services/Misc'
+make[1]: Entering directory '/home/code/app/Driver'
+make -C Gpio_Mng clean;
+make[2]: Entering directory '/home/code/app/Driver/Gpio_Mng'
+rm -f -r .output/eagle/
+make[2]: Leaving directory '/home/code/app/Driver/Gpio_Mng'
+rm -f -r .output/eagle/
+make[1]: Leaving directory '/home/code/app/Driver'
+make[1]: Entering directory '/home/code/app/Driver/Gpio_Mng'
+rm -f -r .output/eagle/
+make[1]: Leaving directory '/home/code/app/Driver/Gpio_Mng'
+rm -f -r .output/eagle/
+make[1]: Entering directory '/home/code/app/App'
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../Driver/Gpio_Mng -I ../Driver/Uart_Mng -I ../Services/Mqtt_Mng -I ../Services/Nvm_Mng -I ../Services/Wifi_Mng -I ../Services/Misc -I ../App -I ../App/ButtonReq_Mng -I ../App/NetworkReq_Mng -I ../App/AccessPoint_Mng -I ../App/Fota_Mng -I ../../include -I ../../include/eagle -I ../../driver_lib/include main.c
+make[2]: Entering directory '/home/code/app/App/AccessPoint_Mng'
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include AccessPoint_Mng.c
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng  -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include  -o .output/eagle/debug/obj/AccessPoint_Mng.o -c AccessPoint_Mng.c
+xtensa-lx106-elf-ar ru .output/eagle/debug/lib/libap.a .output/eagle/debug/obj/AccessPoint_Mng.o 
+make[2]: Leaving directory '/home/code/app/App/AccessPoint_Mng'
+make[2]: Entering directory '/home/code/app/App/ButtonReq_Mng'
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include ButtonReq_Mng.c
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng  -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include  -o .output/eagle/debug/obj/ButtonReq_Mng.o -c ButtonReq_Mng.c
+xtensa-lx106-elf-ar ru .output/eagle/debug/lib/libbtnreq.a .output/eagle/debug/obj/ButtonReq_Mng.o 
+make[2]: Leaving directory '/home/code/app/App/ButtonReq_Mng'
+make[2]: Entering directory '/home/code/app/App/NetworkReq_Mng'
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include NetworkReq_Mng.c
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng  -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include  -o .output/eagle/debug/obj/NetworkReq_Mng.o -c NetworkReq_Mng.c
+xtensa-lx106-elf-ar ru .output/eagle/debug/lib/libnetreq.a .output/eagle/debug/obj/NetworkReq_Mng.o 
+make[2]: Leaving directory '/home/code/app/App/NetworkReq_Mng'
+make[2]: Entering directory '/home/code/app/App/Fota_Mng'
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include Fota_Mng.c
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng  -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include  -o .output/eagle/debug/obj/Fota_Mng.o -c Fota_Mng.c
+xtensa-lx106-elf-ar ru .output/eagle/debug/lib/libfota.a .output/eagle/debug/obj/Fota_Mng.o 
+make[2]: Leaving directory '/home/code/app/App/Fota_Mng'
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../Driver/Gpio_Mng -I ../Driver/Uart_Mng -I ../Services/Mqtt_Mng -I ../Services/Nvm_Mng -I ../Services/Wifi_Mng -I ../Services/Misc -I ../App -I ../App/ButtonReq_Mng -I ../App/NetworkReq_Mng -I ../App/AccessPoint_Mng -I ../App/Fota_Mng  -I ../../include -I ../../include/eagle -I ../../driver_lib/include  -o .output/eagle/debug/obj/main.o -c main.c
+xtensa-lx106-elf-ar ru .output/eagle/debug/lib/libapp.a .output/eagle/debug/obj/main.o 
+make[1]: Leaving directory '/home/code/app/App'
+make[1]: Entering directory '/home/code/app/App/ButtonReq_Mng'
+make[1]: Leaving directory '/home/code/app/App/ButtonReq_Mng'
+make[1]: Entering directory '/home/code/app/App/Fota_Mng'
+make[1]: Leaving directory '/home/code/app/App/Fota_Mng'
+make[1]: Entering directory '/home/code/app/App/NetworkReq_Mng'
+make[1]: Leaving directory '/home/code/app/App/NetworkReq_Mng'
+make[1]: Entering directory '/home/code/app/App/AccessPoint_Mng'
+make[1]: Leaving directory '/home/code/app/App/AccessPoint_Mng'
+make[1]: Entering directory '/home/code/app/Services'
+make[2]: Entering directory '/home/code/app/Services/Nvm_Mng'
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include Nvm_Mng.c
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng  -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include  -o .output/eagle/debug/obj/Nvm_Mng.o -c Nvm_Mng.c
+xtensa-lx106-elf-ar ru .output/eagle/debug/lib/libnvm.a .output/eagle/debug/obj/Nvm_Mng.o 
+make[2]: Leaving directory '/home/code/app/Services/Nvm_Mng'
+make[2]: Entering directory '/home/code/app/Services/Mqtt_Mng'
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include ringbuf.c
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include proto.c
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include debug.c
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include Mqtt_Mng.c
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include utils.c
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include queue.c
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include mqtt_msg.c
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include mqtt.c
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng  -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include  -o .output/eagle/debug/obj/mqtt.o -c mqtt.c
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng  -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include  -o .output/eagle/debug/obj/mqtt_msg.o -c mqtt_msg.c
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng  -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include  -o .output/eagle/debug/obj/queue.o -c queue.c
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng  -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include  -o .output/eagle/debug/obj/utils.o -c utils.c
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng  -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include  -o .output/eagle/debug/obj/Mqtt_Mng.o -c Mqtt_Mng.c
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng  -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include  -o .output/eagle/debug/obj/debug.o -c debug.c
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng  -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include  -o .output/eagle/debug/obj/proto.o -c proto.c
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng  -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include  -o .output/eagle/debug/obj/ringbuf.o -c ringbuf.c
+xtensa-lx106-elf-ar ru .output/eagle/debug/lib/libmqtt.a .output/eagle/debug/obj/mqtt.o .output/eagle/debug/obj/mqtt_msg.o .output/eagle/debug/obj/queue.o .output/eagle/debug/obj/utils.o .output/eagle/debug/obj/Mqtt_Mng.o .output/eagle/debug/obj/debug.o .output/eagle/debug/obj/proto.o .output/eagle/debug/obj/ringbuf.o 
+make[2]: Leaving directory '/home/code/app/Services/Mqtt_Mng'
+make[2]: Entering directory '/home/code/app/Services/Misc'
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include Misc.c
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng  -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include  -o .output/eagle/debug/obj/Misc.o -c Misc.c
+xtensa-lx106-elf-ar ru .output/eagle/debug/lib/libmisc.a .output/eagle/debug/obj/Misc.o 
+make[2]: Leaving directory '/home/code/app/Services/Misc'
+make[2]: Entering directory '/home/code/app/Services/Wifi_Mng'
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include Wifi_Mng.c
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng  -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include  -o .output/eagle/debug/obj/Wifi_Mng.o -c Wifi_Mng.c
+xtensa-lx106-elf-ar ru .output/eagle/debug/lib/libwifi.a .output/eagle/debug/obj/Wifi_Mng.o 
+make[2]: Leaving directory '/home/code/app/Services/Wifi_Mng'
+xtensa-lx106-elf-ar ru .output/eagle/debug/lib/libservices.a  
+make[1]: Leaving directory '/home/code/app/Services'
+make[1]: Entering directory '/home/code/app/Services/Mqtt_Mng'
+make[1]: Leaving directory '/home/code/app/Services/Mqtt_Mng'
+make[1]: Entering directory '/home/code/app/Services/Nvm_Mng'
+make[1]: Leaving directory '/home/code/app/Services/Nvm_Mng'
+make[1]: Entering directory '/home/code/app/Services/Wifi_Mng'
+make[1]: Leaving directory '/home/code/app/Services/Wifi_Mng'
+make[1]: Entering directory '/home/code/app/Services/Misc'
+make[1]: Leaving directory '/home/code/app/Services/Misc'
+make[1]: Entering directory '/home/code/app/Driver'
+make[2]: Entering directory '/home/code/app/Driver/Gpio_Mng'
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include gpio_mng.c
+DEPEND: xtensa-lx106-elf-gcc -M -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DGLOBAL_DEBUG_ON -DICACHE_FLASH -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include gpio16.c
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng  -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include  -o .output/eagle/debug/obj/gpio16.o -c gpio16.c
+xtensa-lx106-elf-gcc -Os -g -Wpointer-arith -Wundef -Werror -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf  -DGLOBAL_DEBUG_ON -DICACHE_FLASH    -I include -I ./ -I ../include -I ./ -I ../../Driver/Gpio_Mng -I ../../Driver/Uart_Mng -I ../../Services/Mqtt_Mng -I ../../Services/Nvm_Mng -I ../../Services/Wifi_Mng -I ../../Services/Misc -I ../../App -I ../../App/ButtonReq_Mng -I ../../App/NetworkReq_Mng -I ../../App/AccessPoint_Mng -I ../../App/Fota_Mng  -I ../../../include -I ../../../include/eagle -I ../../../driver_lib/include  -o .output/eagle/debug/obj/gpio_mng.o -c gpio_mng.c
+xtensa-lx106-elf-ar ru .output/eagle/debug/lib/libgpio.a .output/eagle/debug/obj/gpio16.o .output/eagle/debug/obj/gpio_mng.o 
+make[2]: Leaving directory '/home/code/app/Driver/Gpio_Mng'
+xtensa-lx106-elf-ar ru .output/eagle/debug/lib/libdrv.a  
+make[1]: Leaving directory '/home/code/app/Driver'
+make[1]: Entering directory '/home/code/app/Driver/Gpio_Mng'
+make[1]: Leaving directory '/home/code/app/Driver/Gpio_Mng'
+xtensa-lx106-elf-gcc  -L../lib -nostdlib -T../ld/eagle.app.v6.new.2048.ld -Wl,--no-check-sections -Wl,--gc-sections -u call_user_start -Wl,-static -Wl,--start-group -lc -lgcc -lhal -lphy -lpp -lnet80211 -llwip -lwpa -lcrypto -lmain -ljson -lupgrade -lmbedtls -lpwm -ldriver -lsmartconfig App/.output/eagle/debug/lib/libapp.a App/ButtonReq_Mng/.output/eagle/debug/lib/libbtnreq.a App/Fota_Mng/.output/eagle/debug/lib/libfota.a App/NetworkReq_Mng/.output/eagle/debug/lib/libnetreq.a App/AccessPoint_Mng/.output/eagle/debug/lib/libap.a Services/.output/eagle/debug/lib/libservices.a Services/Mqtt_Mng/.output/eagle/debug/lib/libmqtt.a Services/Nvm_Mng/.output/eagle/debug/lib/libnvm.a Services/Wifi_Mng/.output/eagle/debug/lib/libwifi.a Services/Misc/.output/eagle/debug/lib/libmisc.a Driver/.output/eagle/debug/lib/libdrv.a Driver/Gpio_Mng/.output/eagle/debug/lib/libgpio.a -Wl,--end-group -o .output/eagle/debug/image/eagle.app.v6.out 
+mkdir -p ../bin/upgrade
+
+!!!
+all_bin_crc
+829652173
+829652174
+Support boot_v1.4 and +
+Generate user2.2048.new.5.bin successully in folder bin/upgrade.
+boot.bin------------>0x00000
+user2.2048.new.5.bin--->0x101000
+!!!
+
+[OK] Build successfull | DATE: Thu Mar 24 19:10:22 UTC 2022
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
