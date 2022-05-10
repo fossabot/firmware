@@ -199,4 +199,5 @@ This is free software; you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 Copyright (C) 2022 Powahome srl
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
-
+## Third party software
+Any portion of the Software that constitutes third party software, including software provided under a public license is licensed to You subject to the terms and conditions of the software license agreements accompanying such third party software.
