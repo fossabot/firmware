@@ -1,6 +1,6 @@
-﻿
-
 # Readme Powahome Firmware
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpowahome%2Ffirmware.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpowahome%2Ffirmware?ref=badge_shield)
+
 Questo firmware è sviluppato per [ESP-8266](https://www.espressif.com/en/products/hardware/esp8266ex/overview) utilizzando [Non-OS SDK](https://github.com/espressif/ESP8266_NONOS_SDK).
 
 ### Immagine Docker
@@ -199,5 +199,8 @@ This is free software; you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 Copyright (C) 2022 Powahome srl
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpowahome%2Ffirmware.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpowahome%2Ffirmware?ref=badge_large)
+
 ## Third party software
 Any portion of the Software that constitutes third party software, including software provided under a public license is licensed to You subject to the terms and conditions of the software license agreements accompanying such third party software.
